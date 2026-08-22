@@ -66,16 +66,15 @@ This makes the project a **supervised machine learning regression task**, where 
 - XGBoost
 - SVR
 ---
-
 ## 📊 Model Comparison Report
 
-| Model              | MAE      | RMSE     | R² Score | After Tuning |
-|--------------------|----------|----------|----------|--------------|
-| Linear Regression  | 0.100059 | 0.146923 | 0.884326 | 0.884326     |
-| XGBoost            | 0.103270 | 0.153795 | 0.873251 | 0.876029     |
-| Random Forest      | 0.101656 | 0.156261 | 0.869156 | 0.869156     |
-| Gradient Boosting  | 0.105187 | 0.158461 | 0.865444 | 0.882254     |
-| SVR                | 0.118566 | 0.197707 | 0.790541 | 0.824503     |
+| Model              | MAE      | RMSE     | R² Score | R² After Tuning |
+|--------------------|----------|----------|----------|-----------------|
+| Linear Regression  | 0.100434 | 0.146927 | 0.884319 | 0.884319        |
+| Gradient Boosting  | 0.105155 | 0.160805 | 0.861435 | 0.876266        |
+| XGBoost            | 0.105136 | 0.154958 | 0.871327 | 0.872144        |
+| Random Forest      | 0.102080 | 0.156570 | 0.868637 | 0.869219        |
+| SVR                | 0.119951 | 0.198912 | 0.787979 | 0.823586        |
 
 > ✅ Gradient Boosting showed the most improvement after tuning, while Linear Regression remained stable.
 
