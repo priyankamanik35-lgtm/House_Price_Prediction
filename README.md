@@ -6,6 +6,15 @@ It leverages historical housing data to build models that estimate property valu
 
 ---
 
+## 📂 Repository Contents
+
+The repository is organized as follows:
+
+* [HousePrice_Datasets.csv](https://github.com/priyankamanik35-lgtm/House_Price_Prediction/blob/main/HousePrice%20Dataset.csv)  — Complete Historical Dataset
+* [House_Price_Prediction_model](https://github.com/priyankamanik35-lgtm/House_Price_Prediction/blob/main/House_Price_Prediction_model.ipynb) _ EDA, model comparison, and tuning experiments
+* [House_Price_Analysis_Report](https://github.com/priyankamanik35-lgtm/House_Price_Prediction/blob/main/House_Price_Analysis_Report.docx
+) _ Complete Data analysis Report, Model Performance reports and visualizations and Customer Suggestions.
+
 ## 🛑 Problem
 Accurately predicting house prices is crucial for buyers, sellers, and real estate professionals.  
 Traditional methods often fail to capture complex relationships between features like location, size, and amenities.
